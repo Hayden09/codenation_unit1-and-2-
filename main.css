@@ -1,11 +1,29 @@
-* { 
-    background-color: #F27457;
+@import url('https://fonts.googleapis.com/css?family=Rubik:900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+.box {
+    color:white;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding:15px;
+    flex: 1;
+}
+
+.box1 { background:#FF283D;}
+  .box2 { background:#FF475F;}
+  .box3 { background:#FF5B4C;}
+  .box4 { background:#FF8359;}
+
+.container {display: flex;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Rubik:900&display=swap');
 h1 {
     font-family: 'Rubik', sans-serif;
-    color: #F20544;
+    color: #FFEAE9;
     font-size: 60px;
     text-align: center;
 }
@@ -13,7 +31,7 @@ h1 {
 @import url('https://fonts.googleapis.com/css?family=Rubik:900&display=swap');
 h2 {
     font-family: 'Rubik', sans-serif;
-    color: #BF0436;
+    color: #FFFFFF;
     font-size: 40px;
     text-align: center;
 }
@@ -21,34 +39,34 @@ h2 {
 @import url('https://fonts.googleapis.com/css?family=Rubik:900&display=swap');
 h3 {
     font-family: 'Rubik', sans-serif;
-    color: #73253A;
-    font-size: 20px;
+    color: #FF8459;
+    font-size: 17px;
     text-align: center;
     box-sizing: border-box;
-    padding: 10px 50px 5px;
+    padding: 10px 160px 5px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 .Paragraph {font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     color: #F2F2F2;
     box-sizing: border-box;
-    padding: 3px 50px 3px;
+    padding: 3px 160px 3px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 .Paragraphbullet {font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     color: #F2F2F2;
     box-sizing: border-box;
-    padding: 1px 50px 1px;
+    padding: 1px 160px 1px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 #bumlink {font-family: 'Nunito', sans-serif;
     color: #F2F2F2;
     box-sizing: border-box;
-    padding: 0.1px 50px 0.1px;}
+    padding: 0.1px 160px 0.1px;}
 
 img { 
     width: 55%;
