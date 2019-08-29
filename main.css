@@ -26,6 +26,8 @@ h1 {
     color: #FFFFFF;
     font-size: 60px;
     text-align: center;
+    box-sizing: border-box;
+    padding: 10px 180px 3px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Rubik:900&display=swap');
@@ -34,24 +36,27 @@ h2 {
     color: #FFFFFF;
     font-size: 40px;
     text-align: center;
+    box-sizing: border-box;
+    padding: 10px 180px 3px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Rubik:900&display=swap');
 h3 {
     font-family: 'Rubik', sans-serif;
     color: #FF8459;
-    font-size: 17px;
+    font-size: 24px;
     text-align: center;
     box-sizing: border-box;
-    padding: 10px 160px 5px;
+    padding: 10px 180px 3px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 .Paragraph {font-family: 'Nunito', sans-serif;
     font-size: 17px;
     color: #F2F2F2;
+    background-color: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    padding: 3px 180px 3px;
+    padding: 3px 200px 3px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
@@ -59,14 +64,15 @@ h3 {
     font-size: 17px;
     color: #F2F2F2;
     box-sizing: border-box;
-    padding: 1px 180px 1px;
+    padding: 1px 200px 1px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 #bumlink {font-family: 'Nunito', sans-serif;
     color: #F2F2F2;
+    background-color: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    padding: 0.1px 180px 0.1px;}
+    padding: 0.1px 200px 0.1px;}
 
 img { 
     width: 55%;
@@ -89,10 +95,11 @@ body{
 }
 .btn{
     border: 1px solid #FF8459;
-    background: none;
+    background:#FF283D;
     padding: 10px 20px;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
     cursor: pointer;
     margin: 10px;
     transition: 0.8s;
